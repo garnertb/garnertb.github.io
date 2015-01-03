@@ -13,7 +13,6 @@ is a small script that can be run from the Django shell to create users in batch
 import sys
 from django.contrib.auth import authenticate
 from django.contrib.auth import get_user_model
-from django.contrib.auth.models import User
 
 User = get_user_model()
 
